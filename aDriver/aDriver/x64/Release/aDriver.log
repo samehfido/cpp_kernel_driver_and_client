@@ -1,0 +1,20 @@
+﻿  Building 'aDriver' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Release\aDriver.inf
+  Stamping [Version] section with DriverVer=02/01/2020,14.16.54.608
+  Main.cpp
+  Utils.cpp
+F:\Projects\С++\aDriver\aDriver\Utils.cpp(31,32): warning C4100: RelativeTo: неиспользованный формальный параметр
+F:\Projects\С++\aDriver\aDriver\Utils.cpp(72,32): warning C4100: RelativeTo: неиспользованный формальный параметр
+  Создание кода...
+  aDriver.vcxproj -> F:\Projects\С++\aDriver\x64\Release\aDriver.sys
+  ........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  F:\Projects\С++\aDriver\x64\Release\aDriver\adriver.cat

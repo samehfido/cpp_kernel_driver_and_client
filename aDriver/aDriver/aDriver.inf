@@ -1,0 +1,28 @@
+;
+; aDriver.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=System ; TODO: edit Class
+ClassGuid={4d36e97d-e325-11ce-bfc1-08002be10318} ; TODO: edit ClassGuid
+Provider=%ManufacturerName%
+CatalogFile=aDriver.cat
+DriverVer= ; TODO: set DriverVer in stampinf property pages
+
+[DestinationDirs]
+DefaultDestDir = 12
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[Manufacturer]
+%ManufacturerName%=Standard,NT$ARCH$
+
+[Standard.NT$ARCH$]
+
+[Strings]
+ManufacturerName="<Your manufacturer name>" ;TODO: Replace with your manufacturer name
+ClassName="Samples" ; TODO: edit ClassName
+DiskName = "aDriver Installation Disk"
+

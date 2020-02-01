@@ -1,0 +1,21 @@
+﻿  Main.cpp
+F:\Projects\С++\aClient\aClient\Offsets.h(28,1): warning C4005: OFFSET_GLOW_FADE: изменение макроопределения
+F:\Projects\С++\aClient\aClient\Offsets.h(25): message : см. предыдущее определение "OFFSET_GLOW_FADE"
+F:\Projects\С++\aClient\aClient\Main.cpp(277,1): warning C4005: OFFSET_GLOW_FADE: изменение макроопределения
+F:\Projects\С++\aClient\aClient\Offsets.h(28): message : см. предыдущее определение "OFFSET_GLOW_FADE"
+F:\Projects\С++\aClient\aClient\Main.cpp(351,58): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+F:\Projects\С++\aClient\aClient\Main.cpp(353,27): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+F:\Projects\С++\aClient\aClient\Main.cpp(353,42): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+F:\Projects\С++\aClient\aClient\Main.cpp(354,38): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+F:\Projects\С++\aClient\aClient\Main.cpp(458,21): warning C4244: /=: преобразование "double" в "float", возможна потеря данных
+F:\Projects\С++\aClient\aClient\Main.cpp(459,21): warning C4244: /=: преобразование "double" в "float", возможна потеря данных
+F:\Projects\С++\aClient\aClient\Main.cpp(515,27): warning C4244: аргумент: преобразование "uint64_t" в "DWORD", возможна потеря данных
+F:\Projects\С++\aClient\aClient\Main.cpp(518,27): warning C4244: аргумент: преобразование "uint64_t" в "DWORD", возможна потеря данных
+F:\Projects\С++\aClient\aClient\Main.cpp(521,27): warning C4244: аргумент: преобразование "uint64_t" в "DWORD", возможна потеря данных
+F:\Projects\С++\aClient\aClient\Main.cpp(546,8): warning C4101: enemy: неиспользованная локальная переменная
+  Создание кода
+  4 of 39 functions (10.3%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  aClient.vcxproj -> F:\Projects\С++\aClient\x64\Release\aClient.exe

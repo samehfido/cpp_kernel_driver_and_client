@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Communication">
+      <UniqueIdentifier>{3957c340-745d-446f-a8d2-9bc21fae34fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{c08a4f57-6362-4ba6-b157-b6d349352ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{c40718ea-1a9a-4205-bcea-3195d29836fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils\Registry">
+      <UniqueIdentifier>{4f1aabfd-fe9b-485b-b919-2893d9594fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils\Transponder">
+      <UniqueIdentifier>{cfe9fa45-1adb-49fc-a25f-6450c629e50c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils\Process">
+      <UniqueIdentifier>{e10d27bc-5611-4bf5-b169-4be858e48f51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Math">
+      <UniqueIdentifier>{4f1c2164-e65a-4a68-8f5a-2b462e79d38e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Cheat">
+      <UniqueIdentifier>{5ce85fd7-a729-4f22-8693-1ae89c439ee0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Offsets.h">
+      <Filter>Source\Cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

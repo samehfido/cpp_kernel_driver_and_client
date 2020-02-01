@@ -1,0 +1,37 @@
+﻿  Main.cpp
+F:\Projects\С++\aClient\aClient\Offsets.h(28,1): warning C4005: OFFSET_GLOW_FADE: изменение макроопределения
+F:\Projects\С++\aClient\aClient\Offsets.h(25): message : см. предыдущее определение "OFFSET_GLOW_FADE"
+F:\Projects\С++\aClient\aClient\Main.cpp(165,86): error C2664: "LSTATUS RegOpenKeyExW(HKEY,LPCWSTR,DWORD,REGSAM,PHKEY)": невозможно преобразовать аргумент 2 из "LPCSTR" в "LPCWSTR"
+F:\Projects\С++\aClient\aClient\Main.cpp(165,49): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winreg.h(703,1): message : см. объявление "RegOpenKeyExW"
+F:\Projects\С++\aClient\aClient\Main.cpp(166,86): error C2664: "LSTATUS RegSetValueExW(HKEY,LPCWSTR,DWORD,DWORD,const BYTE *,DWORD)": невозможно преобразовать аргумент 2 из "LPCSTR" в "LPCWSTR"
+F:\Projects\С++\aClient\aClient\Main.cpp(166,33): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winreg.h(1009,1): message : см. объявление "RegSetValueExW"
+F:\Projects\С++\aClient\aClient\Main.cpp(181,86): error C2664: "LSTATUS RegOpenKeyExW(HKEY,LPCWSTR,DWORD,REGSAM,PHKEY)": невозможно преобразовать аргумент 2 из "LPCSTR" в "LPCWSTR"
+F:\Projects\С++\aClient\aClient\Main.cpp(181,49): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winreg.h(703,1): message : см. объявление "RegOpenKeyExW"
+F:\Projects\С++\aClient\aClient\Main.cpp(182,82): error C2664: "LSTATUS RegQueryValueExW(HKEY,LPCWSTR,LPDWORD,LPDWORD,LPBYTE,LPDWORD)": невозможно преобразовать аргумент 2 из "LPCSTR" в "LPCWSTR"
+F:\Projects\С++\aClient\aClient\Main.cpp(182,35): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\winreg.h(860,1): message : см. объявление "RegQueryValueExW"
+F:\Projects\С++\aClient\aClient\Main.cpp(227,49): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+F:\Projects\С++\aClient\aClient\Main.cpp(228,32): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+F:\Projects\С++\aClient\aClient\Main.cpp(290,7): error C2664: "int strcmp(const char *,const char *)": невозможно преобразовать аргумент 2 из "WCHAR [260]" в "const char *"
+F:\Projects\С++\aClient\aClient\Main.cpp(290,40): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(100,13): message : см. объявление "strcmp"
+F:\Projects\С++\aClient\aClient\Main.cpp(299,7): error C2664: "int strcmp(const char *,const char *)": невозможно преобразовать аргумент 2 из "WCHAR [260]" в "const char *"
+F:\Projects\С++\aClient\aClient\Main.cpp(299,40): message : Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(100,13): message : см. объявление "strcmp"
+F:\Projects\С++\aClient\aClient\Main.cpp(312,1): warning C4005: OFFSET_GLOW_FADE: изменение макроопределения
+F:\Projects\С++\aClient\aClient\Offsets.h(28): message : см. предыдущее определение "OFFSET_GLOW_FADE"
+F:\Projects\С++\aClient\aClient\Main.cpp(388,57): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+F:\Projects\С++\aClient\aClient\Main.cpp(390,27): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+F:\Projects\С++\aClient\aClient\Main.cpp(390,42): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+F:\Projects\С++\aClient\aClient\Main.cpp(391,38): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+F:\Projects\С++\aClient\aClient\Main.cpp(496,27): warning C4244: аргумент: преобразование "uint64_t" в "DWORD", возможна потеря данных
+F:\Projects\С++\aClient\aClient\Main.cpp(547,26): error C2065: Local_Player: необъявленный идентификатор
+F:\Projects\С++\aClient\aClient\Main.cpp(548,29): error C2065: Local_Player: необъявленный идентификатор
+F:\Projects\С++\aClient\aClient\Main.cpp(549,27): error C2065: Local_Player: необъявленный идентификатор
+F:\Projects\С++\aClient\aClient\Main.cpp(549,57): error C2065: Local_Player: необъявленный идентификатор
+F:\Projects\С++\aClient\aClient\Main.cpp(549,87): error C2065: Local_Player: необъявленный идентификатор
+F:\Projects\С++\aClient\aClient\Main.cpp(611,22): warning C4244: /=: преобразование "double" в "float", возможна потеря данных
+F:\Projects\С++\aClient\aClient\Main.cpp(612,22): warning C4244: /=: преобразование "double" в "float", возможна потеря данных
